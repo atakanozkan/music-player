@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.databinding:viewbinding:7.4.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/514c1df781eba2e94ebd5884260ff0d0/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/atakanozkan/.gradle/caches/8.9/transforms/cb09ca85cc136e041fa3905a129a03f1/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/atakanozkan/.gradle/caches/8.9/transforms/794fb075577d964101065fa748edf9b0/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
@@ -61,37 +61,37 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/atakanozkan/.gradl
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/1c742cd896c9418c6172f8a1ee43b8a9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/f22ec9603caefa18db9001d5051cdfe7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/9bcb10d48541cd452ed535ea56104197/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:3:5-41
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_MEDIA_AUDIO
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:4:3-73
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:4:3-73
 	android:name
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:4:20-70
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:4:20-70
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:5:3-77
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:5:3-77
 	android:name
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:5:20-75
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:5:20-75
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:6:3-79
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:6:3-79
 	android:name
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:6:20-77
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:6:20-77
 application
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:7:3-23:17
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:7:3-23:17
 MERGED from [com.google.android.material:material:1.4.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d013aa42356828780b5cde1f3ecd409/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d013aa42356828780b5cde1f3ecd409/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/atakanozkan/.gradle/caches/8.9/transforms/ff3d2dc22ff39a59a08f68a0cdfb477e/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -109,39 +109,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atak
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/ed7d818de31af0b9b99af6c000f16bd0/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:13:7-33
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:13:7-33
 	android:label
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:11:7-39
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:11:7-39
 	android:roundIcon
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:12:7-52
 	android:icon
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:9:7-33
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:9:7-33
 	android:theme
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:14:7-38
 	android:name
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:8:7-45
-activity#org.hyperskill.musicplayer.MainActivity
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:15:5-22:16
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:8:7-45
+activity#org.hyperskill.musicplayer.ui.MainActivity
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:15:5-22:16
 	android:exported
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:16:9-32
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:16:9-32
 	android:name
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:15:15-69
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:15:15-72
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:17:7-21:23
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:17:7-21:23
 action#android.intent.action.MAIN
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:18:9-61
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:18:9-61
 	android:name
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:18:17-58
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:18:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:20:9-69
+ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:20:9-69
 	android:name
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:20:19-66
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml:20:19-66
 uses-sdk
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.4.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/514c1df781eba2e94ebd5884260ff0d0/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:7.4.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/514c1df781eba2e94ebd5884260ff0d0/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/atakanozkan/.gradle/caches/8.9/transforms/cb09ca85cc136e041fa3905a129a03f1/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
@@ -256,16 +256,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/atakanozkan/.gradle/caches/8.9/t
 MERGED from [androidx.print:print:1.0.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/f22ec9603caefa18db9001d5051cdfe7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/9bcb10d48541cd452ed535ea56104197/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/9bcb10d48541cd452ed535ea56104197/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-		ADDED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
-		INJECTED from /Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+		ADDED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
+		INJECTED from /Users/atakanozkan/music-player/Music Player/task/src/main/AndroidManifest.xml
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/554ca11958838929fde2a64a7b83b830/transformed/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
 	android:exported

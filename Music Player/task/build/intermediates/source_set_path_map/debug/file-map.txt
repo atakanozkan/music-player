@@ -19,11 +19,11 @@ org.hyperskill.musicplayer.Music_Player-task-drawerlayout-1.1.1-17 /Users/atakan
 org.hyperskill.musicplayer.Music_Player-task-core-1.6.0-18 /Users/atakanozkan/.gradle/caches/8.9/transforms/ed7d818de31af0b9b99af6c000f16bd0/transformed/core-1.6.0/res
 org.hyperskill.musicplayer.Music_Player-task-fragment-1.3.6-19 /Users/atakanozkan/.gradle/caches/8.9/transforms/f3452e414796bbbfccd32db419cf5dee/transformed/fragment-1.3.6/res
 org.hyperskill.musicplayer.Music_Player-task-constraintlayout-2.1.3-20 /Users/atakanozkan/.gradle/caches/8.9/transforms/ff3d2dc22ff39a59a08f68a0cdfb477e/transformed/constraintlayout-2.1.3/res
-org.hyperskill.musicplayer.Music_Player-task-pngs-21 /Users/atakanozkan/Music Player/Music Player/task/build/generated/res/pngs/debug
-org.hyperskill.musicplayer.Music_Player-task-resValues-22 /Users/atakanozkan/Music Player/Music Player/task/build/generated/res/resValues/debug
-org.hyperskill.musicplayer.Music_Player-task-rs-23 /Users/atakanozkan/Music Player/Music Player/task/build/generated/res/rs/debug
-org.hyperskill.musicplayer.Music_Player-task-mergeDebugResources-24 /Users/atakanozkan/Music Player/Music Player/task/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-org.hyperskill.musicplayer.Music_Player-task-mergeDebugResources-25 /Users/atakanozkan/Music Player/Music Player/task/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-org.hyperskill.musicplayer.Music_Player-task-merged_res-26 /Users/atakanozkan/Music Player/Music Player/task/build/intermediates/merged_res/debug
-org.hyperskill.musicplayer.Music_Player-task-debug-27 /Users/atakanozkan/Music Player/Music Player/task/src/debug/res
-org.hyperskill.musicplayer.Music_Player-task-main-28 /Users/atakanozkan/Music Player/Music Player/task/src/main/res
+org.hyperskill.musicplayer.Music_Player-task-pngs-21 /Users/atakanozkan/music-player/Music Player/task/build/generated/res/pngs/debug
+org.hyperskill.musicplayer.Music_Player-task-resValues-22 /Users/atakanozkan/music-player/Music Player/task/build/generated/res/resValues/debug
+org.hyperskill.musicplayer.Music_Player-task-rs-23 /Users/atakanozkan/music-player/Music Player/task/build/generated/res/rs/debug
+org.hyperskill.musicplayer.Music_Player-task-mergeDebugResources-24 /Users/atakanozkan/music-player/Music Player/task/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+org.hyperskill.musicplayer.Music_Player-task-mergeDebugResources-25 /Users/atakanozkan/music-player/Music Player/task/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+org.hyperskill.musicplayer.Music_Player-task-merged_res-26 /Users/atakanozkan/music-player/Music Player/task/build/intermediates/merged_res/debug
+org.hyperskill.musicplayer.Music_Player-task-debug-27 /Users/atakanozkan/music-player/Music Player/task/src/debug/res
+org.hyperskill.musicplayer.Music_Player-task-main-28 /Users/atakanozkan/music-player/Music Player/task/src/main/res
