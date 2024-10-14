@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.musicplayer.Stage2UnitTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2024-10-12T02:14:35" hostname="Atakans-MacBook-Pro.local" time="13.998">
+  <properties/>
+  <testcase name="test00_checkSongListAfterInitialClickOnSearch" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.631"/>
+  <testcase name="test01_checkSongListItemChangesImageOnImageButtonClick" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.395"/>
+  <testcase name="test02_checkWhenCurrentTrackChangesAndOldCurrentTrackIsPlayingImageChangesToPaused" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.543"/>
+  <testcase name="test03_checkWhenCurrentTrackChangesAndOldCurrentTrackIsNotPlayingImageRemains" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.399"/>
+  <testcase name="test04_checkAfterInitialSearchFirstListItemIsCurrentTrackAndRespondToControllerPlayPauseButton" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.283"/>
+  <testcase name="test05_checkCurrentTrackImgChangeAfterControllerStopButtonClickWithCurrentTrackPlaying" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.466"/>
+  <testcase name="test06_checkListItemImgChangeMixedClicks" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.578"/>
+  <testcase name="test07_checkAddPlaylistStateTriggeredByMenuItem" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.511"/>
+  <testcase name="test08_checkAddingPlaylistWithEmptyListAddedToastErrorEmptyListMessage" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.18"/>
+  <testcase name="test09_checkAddingPlaylistWithBothEmptyListAndEmptyPlaylistNameToastErrorEmptyListMessage" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.158"/>
+  <testcase name="test10_checkAddingPlaylistWithReservedPlaylistNameAllSongsToastErrorReservedNameMessage" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.303"/>
+  <testcase name="test11_checkLoadPlaylistInPlayMusicStateAfterAddingPlaylistWithMainMenuItem" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.628"/>
+  <testcase name="test12_checkLoadPlaylistInPlayMusicStateAfterAddingPlaylistWithLongClick" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.674"/>
+  <testcase name="test13_checkLoadPlaylistOnPlayMusicStateWithCurrentTrackKeepsCurrentTrack" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.802"/>
+  <testcase name="test14_checkLoadPlaylistOnPlayMusicStateWithoutCurrentTrackChangesCurrentTrack" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.806"/>
+  <testcase name="test15_checkLoadPlaylistInAddPlaylistStateKeepsSelectedItemsById" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.96"/>
+  <testcase name="test16_checkLoadPlaylistInAddPlaylistStateKeepsCurrentTrackWhenReturningToPlayMusicState" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.869"/>
+  <testcase name="test17_checkPlaylistSavedAfterSelectingSongsAfterLoadingPlaylistInAddPlaylistState" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.536"/>
+  <testcase name="test18_checkCancellingAddPlaylistKeepsCurrentPlaylist" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.404"/>
+  <testcase name="test19_checkCancelingAddPlaylistKeepsCurrentTrackPlayingState" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.478"/>
+  <testcase name="test20_checkDeletePlaylistOnPlayMusicStateDeletingPlaylistThatIsNotCurrentPlaylist" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.574"/>
+  <testcase name="test21_checkDeletePlaylistOnPlayMusicStateWithCurrentPlaylistBeingDeleted" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.503"/>
+  <testcase name="test22_checkDeletePlaylistOnAddPlaylistStateDeletingPlaylistThatIsNotDisplayingAndNotCurrentPlaylist" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.657"/>
+  <testcase name="test23_checkDeletePlaylistOnAddPlaylistStateWithCurrentDisplayingAndCurrentPlaylistBeingDeleted" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.713"/>
+  <testcase name="test24_checkSearchInPlayMusicStateChangeCurrentPlaylistToAllSongs" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.371"/>
+  <testcase name="test25_checkSearchInAddPlaylistStateDisplaysAllSongsOnAddPlaylistStateAndKeepsCurrentPlaylistInPlayMusicState" classname="org.hyperskill.musicplayer.Stage2UnitTest" time="0.576"/>
+  <system-out><![CDATA[0
+0
+1
+3
+3
+3
+3
+3
+3
+6
+6
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

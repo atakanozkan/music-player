@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.hyperskill.musicplayer.Music_Player-task-mergeDebugResources-24:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/atakanozkan/.gradle/caches/8.9/transforms/c13712ffb8a70de4daed1a57220dfa72/transformed/appcompat-1.3.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

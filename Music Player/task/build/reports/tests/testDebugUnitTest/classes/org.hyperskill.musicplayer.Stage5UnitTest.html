@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.hyperskill.musicplayer.Stage5UnitTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.hyperskill.musicplayer.Stage5UnitTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.hyperskill.musicplayer.html">org.hyperskill.musicplayer</a> &gt; Stage5UnitTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.738s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">66%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="test04_checkLoadPlaylistFromDatabase"></a>
+<h3 class="failures">test04_checkLoadPlaylistFromDatabase</h3>
+<span class="code">
+<pre>org.junit.ComparisonFailure: Incorrect item after loading a list from database Wrong text on songItemTvArtist expected:&lt;[The Fakers]&gt; but was:&lt;[Fake Artists Are Fake]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.hyperskill.musicplayer.internals.PlayMusicScreen.assertSongItem(PlayMusicScreen.kt:127)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test04_checkLoadPlaylistFromDatabase$2$1$1.invoke(Stage5UnitTest.kt:392)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test04_checkLoadPlaylistFromDatabase$2$1$1.invoke(Stage5UnitTest.kt:391)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems(AbstractUnitTest.kt:365)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems$default(AbstractUnitTest.kt:325)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test04_checkLoadPlaylistFromDatabase$2.invoke(Stage5UnitTest.kt:391)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test04_checkLoadPlaylistFromDatabase$2.invoke(Stage5UnitTest.kt:377)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity(AbstractUnitTest.kt:96)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity$default(AbstractUnitTest.kt:79)
+	at org.hyperskill.musicplayer.Stage5UnitTest.test04_checkLoadPlaylistFromDatabase(Stage5UnitTest.kt:377)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:591)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:274)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="test05_checkAutomaticSearchOnPlaylistLoad"></a>
+<h3 class="failures">test05_checkAutomaticSearchOnPlaylistLoad</h3>
+<span class="code">
+<pre>org.junit.ComparisonFailure: If a list is loaded before mainButtonSearch is clicked then the search should be done automatically before loading the list Wrong text songItemTvTitle expected:&lt;Fa[st faking]&gt; but was:&lt;Fa[king til you make it]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.hyperskill.musicplayer.internals.PlayMusicScreen.assertSongItem(PlayMusicScreen.kt:128)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test05_checkAutomaticSearchOnPlaylistLoad$2$1$1.invoke(Stage5UnitTest.kt:435)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test05_checkAutomaticSearchOnPlaylistLoad$2$1$1.invoke(Stage5UnitTest.kt:434)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems(AbstractUnitTest.kt:365)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems$default(AbstractUnitTest.kt:325)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test05_checkAutomaticSearchOnPlaylistLoad$2.invoke(Stage5UnitTest.kt:434)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test05_checkAutomaticSearchOnPlaylistLoad$2.invoke(Stage5UnitTest.kt:423)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity(AbstractUnitTest.kt:96)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity$default(AbstractUnitTest.kt:79)
+	at org.hyperskill.musicplayer.Stage5UnitTest.test05_checkAutomaticSearchOnPlaylistLoad(Stage5UnitTest.kt:423)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:591)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:274)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test00_checkDatabaseDataAfterPlaylistSave</td>
+<td class="success">0.454s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test01_checkSamePlaylistSaveTwiceNoDuplicatesOnDatabase</td>
+<td class="success">0.711s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test02_checkDatabaseDataAfterPlaylistSaveWithExistingPlaylistNameAndDifferentSongs</td>
+<td class="success">0.728s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test03_checkDatabaseDifferentPlaylistSaves</td>
+<td class="success">0.603s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">test04_checkLoadPlaylistFromDatabase</td>
+<td class="failures">0.121s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">test05_checkAutomaticSearchOnPlaylistLoad</td>
+<td class="failures">0.121s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>3
+3
+3
+3
+4
+3
+4
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.9</a> at Oct 12, 2024, 5:14:49 AM</p>
+</div>
+</div>
+</body>
+</html>

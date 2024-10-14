@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.musicplayer.Stage5UnitTest" tests="6" skipped="0" failures="2" errors="0" timestamp="2024-10-12T02:14:29" hostname="Atakans-MacBook-Pro.local" time="2.738">
+  <properties/>
+  <testcase name="test00_checkDatabaseDataAfterPlaylistSave" classname="org.hyperskill.musicplayer.Stage5UnitTest" time="0.454"/>
+  <testcase name="test01_checkSamePlaylistSaveTwiceNoDuplicatesOnDatabase" classname="org.hyperskill.musicplayer.Stage5UnitTest" time="0.711"/>
+  <testcase name="test02_checkDatabaseDataAfterPlaylistSaveWithExistingPlaylistNameAndDifferentSongs" classname="org.hyperskill.musicplayer.Stage5UnitTest" time="0.728"/>
+  <testcase name="test03_checkDatabaseDifferentPlaylistSaves" classname="org.hyperskill.musicplayer.Stage5UnitTest" time="0.603"/>
+  <testcase name="test04_checkLoadPlaylistFromDatabase" classname="org.hyperskill.musicplayer.Stage5UnitTest" time="0.121">
+    <failure message="org.junit.ComparisonFailure: Incorrect item after loading a list from database Wrong text on songItemTvArtist expected:&lt;[The Fakers]&gt; but was:&lt;[Fake Artists Are Fake]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: Incorrect item after loading a list from database Wrong text on songItemTvArtist expected:&lt;[The Fakers]&gt; but was:&lt;[Fake Artists Are Fake]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.hyperskill.musicplayer.internals.PlayMusicScreen.assertSongItem(PlayMusicScreen.kt:127)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test04_checkLoadPlaylistFromDatabase$2$1$1.invoke(Stage5UnitTest.kt:392)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test04_checkLoadPlaylistFromDatabase$2$1$1.invoke(Stage5UnitTest.kt:391)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems(AbstractUnitTest.kt:365)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems$default(AbstractUnitTest.kt:325)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test04_checkLoadPlaylistFromDatabase$2.invoke(Stage5UnitTest.kt:391)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test04_checkLoadPlaylistFromDatabase$2.invoke(Stage5UnitTest.kt:377)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity(AbstractUnitTest.kt:96)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity$default(AbstractUnitTest.kt:79)
+	at org.hyperskill.musicplayer.Stage5UnitTest.test04_checkLoadPlaylistFromDatabase(Stage5UnitTest.kt:377)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:591)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:274)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+</failure>
+  </testcase>
+  <testcase name="test05_checkAutomaticSearchOnPlaylistLoad" classname="org.hyperskill.musicplayer.Stage5UnitTest" time="0.121">
+    <failure message="org.junit.ComparisonFailure: If a list is loaded before mainButtonSearch is clicked then the search should be done automatically before loading the list Wrong text songItemTvTitle expected:&lt;Fa[st faking]&gt; but was:&lt;Fa[king til you make it]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: If a list is loaded before mainButtonSearch is clicked then the search should be done automatically before loading the list Wrong text songItemTvTitle expected:&lt;Fa[st faking]&gt; but was:&lt;Fa[king til you make it]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.hyperskill.musicplayer.internals.PlayMusicScreen.assertSongItem(PlayMusicScreen.kt:128)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test05_checkAutomaticSearchOnPlaylistLoad$2$1$1.invoke(Stage5UnitTest.kt:435)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test05_checkAutomaticSearchOnPlaylistLoad$2$1$1.invoke(Stage5UnitTest.kt:434)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems(AbstractUnitTest.kt:365)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems$default(AbstractUnitTest.kt:325)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test05_checkAutomaticSearchOnPlaylistLoad$2.invoke(Stage5UnitTest.kt:434)
+	at org.hyperskill.musicplayer.Stage5UnitTest$test05_checkAutomaticSearchOnPlaylistLoad$2.invoke(Stage5UnitTest.kt:423)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity(AbstractUnitTest.kt:96)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity$default(AbstractUnitTest.kt:79)
+	at org.hyperskill.musicplayer.Stage5UnitTest.test05_checkAutomaticSearchOnPlaylistLoad(Stage5UnitTest.kt:423)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:591)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:274)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+</failure>
+  </testcase>
+  <system-out><![CDATA[3
+3
+3
+3
+4
+3
+4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

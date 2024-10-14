@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.musicplayer.Stage3UnitTest" tests="15" skipped="0" failures="1" errors="0" timestamp="2024-10-12T02:14:16" hostname="Atakans-MacBook-Pro.local" time="11.872">
+  <properties/>
+  <testcase name="test00_checkControllerTriggersMediaPlayerOnDefaultItem" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="5.136"/>
+  <testcase name="test01_checkImgButtonTriggersMediaPlayerOnListItem" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.66"/>
+  <testcase name="test02_checkSeekBarChangeWhilePlaying" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.21"/>
+  <testcase name="test03_checkSeekBarBeforePlaying" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.17">
+    <failure message="java.lang.AssertionError: No MediaPlayer was found" type="java.lang.AssertionError">java.lang.AssertionError: No MediaPlayer was found
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertNotNull(Assert.java:713)
+	at org.hyperskill.musicplayer.internals.MusicPlayerUnitTests.getPlayer(MusicPlayerUnitTests.kt:57)
+	at org.hyperskill.musicplayer.Stage3UnitTest.access$getPlayer(Stage3UnitTest.kt:33)
+	at org.hyperskill.musicplayer.Stage3UnitTest$test03_checkSeekBarBeforePlaying$1.invoke(Stage3UnitTest.kt:223)
+	at org.hyperskill.musicplayer.Stage3UnitTest$test03_checkSeekBarBeforePlaying$1.invoke(Stage3UnitTest.kt:197)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity(AbstractUnitTest.kt:96)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity$default(AbstractUnitTest.kt:79)
+	at org.hyperskill.musicplayer.Stage3UnitTest.test03_checkSeekBarBeforePlaying(Stage3UnitTest.kt:197)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:591)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:274)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+</failure>
+  </testcase>
+  <testcase name="test04_checkSeekBarAfterStop" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.273"/>
+  <testcase name="test05_checkSeekBarAfterPause" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.26"/>
+  <testcase name="test06_checkMusicEnd" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.257"/>
+  <testcase name="test07_checkSeekBarChangeAfterMusicEnd" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.293"/>
+  <testcase name="test08_checkPlayAfterMusicEnd" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.255"/>
+  <testcase name="test09_checkImgButtonPlayAfterMusicEnd" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.353"/>
+  <testcase name="test10_checkSongChange" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.789"/>
+  <testcase name="test11_checkCancelAddPlaylistKeepsPlayingCurrentSelectedSong" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.795"/>
+  <testcase name="test12_checkLoadPlaylistKeepsPlayingCurrentSelectedSong" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="1.223"/>
+  <testcase name="test13_checkLoadPlaylistChangesSongIfCurrentSelectedSongNotInPlaylist" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.996"/>
+  <testcase name="test14_checkControllerKeepsStateAfterCancelAddPlaylist" classname="org.hyperskill.musicplayer.Stage3UnitTest" time="0.201"/>
+  <system-out><![CDATA[Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=29
+resources.arsc in APK '/Users/atakanozkan/.m2/repository/org/robolectric/android-all-instrumented/10-robolectric-5803371-i3/android-all-instrumented-10-robolectric-5803371-i3.jar' is compressed.
+3
+3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

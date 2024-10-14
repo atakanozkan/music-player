@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-ldpi_ic_play.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-ldpi/ic_play.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xxxhdpi_ic_pause.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xxxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-anydpi-v21_ic_pause.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-anydpi-v21/ic_pause.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/layout_main_player_controller_fragment.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/main_player_controller_fragment.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xxhdpi_ic_play.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xxhdpi/ic_play.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/layout_dialog_playlist_list.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/dialog_playlist_list.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-hdpi_ic_play.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-hdpi/ic_play.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/layout_main_player_controller_fragment.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/main_player_controller_fragment.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/layout_list_item_song_selector.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/list_item_song_selector.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/layout_list_item_song.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/list_item_song.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xxhdpi_ic_pause.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xhdpi_ic_pause.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xhdpi/ic_pause.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/raw_wisdom.mp3.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/raw/wisdom.mp3"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/menu_toolbar_items.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/menu/toolbar_items.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-mdpi_ic_play.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-mdpi/ic_play.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-ldpi_ic_pause.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-ldpi/ic_pause.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xhdpi_ic_play.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xhdpi/ic_play.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-xxxhdpi_ic_play.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-xxxhdpi/ic_play.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/layout_playlist_item.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/playlist_item.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-hdpi_ic_pause.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-hdpi/ic_pause.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-anydpi-v21_ic_play.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-anydpi-v21/ic_play.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/drawable-mdpi_ic_pause.png.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-pngs-21:/drawable-mdpi/ic_pause.png"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-merged_res-26:/layout_main_add_playlist_fragment.xml.flat",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/main_add_playlist_fragment.xml"
+    }
+]

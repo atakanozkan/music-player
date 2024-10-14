@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-mergeReleaseResources-25:/layout/list_item_song.xml",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/list_item_song.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-mergeReleaseResources-25:/layout/main_add_playlist_fragment.xml",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/main_add_playlist_fragment.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-mergeReleaseResources-25:/layout/playlist_item.xml",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/playlist_item.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-mergeReleaseResources-25:/layout/main_player_controller_fragment.xml",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/main_player_controller_fragment.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-mergeReleaseResources-25:/layout/dialog_playlist_list.xml",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/dialog_playlist_list.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-mergeReleaseResources-25:/layout/list_item_song_selector.xml",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/list_item_song_selector.xml"
+    },
+    {
+        "merged": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-mergeReleaseResources-25:/layout/activity_main.xml",
+        "source": "/Users/atakanozkan/.gradle/daemon/8.9/org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-mergeReleaseResources-25:/layout/main_player_controller_fragment.xml",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-27:/layout/main_player_controller_fragment.xml"
+    }
+]

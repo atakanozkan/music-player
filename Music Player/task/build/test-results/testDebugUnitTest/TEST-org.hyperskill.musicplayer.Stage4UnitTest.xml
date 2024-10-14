@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.musicplayer.Stage4UnitTest" tests="6" skipped="0" failures="2" errors="0" timestamp="2024-10-12T02:14:28" hostname="Atakans-MacBook-Pro.local" time="0.884">
+  <properties/>
+  <testcase name="test00_testPermissionRequestGranted" classname="org.hyperskill.musicplayer.Stage4UnitTest" time="0.112">
+    <failure message="java.lang.AssertionError:  Incorrect number of list items expected:&lt;11&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError:  Incorrect number of list items expected:&lt;11&gt; but was:&lt;0&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems(AbstractUnitTest.kt:336)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems$default(AbstractUnitTest.kt:325)
+	at org.hyperskill.musicplayer.Stage4UnitTest$test00_testPermissionRequestGranted$1.invoke(Stage4UnitTest.kt:60)
+	at org.hyperskill.musicplayer.Stage4UnitTest$test00_testPermissionRequestGranted$1.invoke(Stage4UnitTest.kt:45)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity(AbstractUnitTest.kt:96)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity$default(AbstractUnitTest.kt:79)
+	at org.hyperskill.musicplayer.Stage4UnitTest.test00_testPermissionRequestGranted(Stage4UnitTest.kt:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:591)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:274)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+</failure>
+  </testcase>
+  <testcase name="test01_testListStateOnPermissionRequestDenied" classname="org.hyperskill.musicplayer.Stage4UnitTest" time="0.081"/>
+  <testcase name="test02_testToastShowsOnPermissionRequestDenied" classname="org.hyperskill.musicplayer.Stage4UnitTest" time="0.086"/>
+  <testcase name="test03_testPermissionRequestAgainGranted" classname="org.hyperskill.musicplayer.Stage4UnitTest" time="0.071">
+    <failure message="java.lang.AssertionError:  Incorrect number of list items expected:&lt;14&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError:  Incorrect number of list items expected:&lt;14&gt; but was:&lt;0&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems(AbstractUnitTest.kt:336)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.assertListItems$default(AbstractUnitTest.kt:325)
+	at org.hyperskill.musicplayer.Stage4UnitTest$test03_testPermissionRequestAgainGranted$1.invoke(Stage4UnitTest.kt:161)
+	at org.hyperskill.musicplayer.Stage4UnitTest$test03_testPermissionRequestAgainGranted$1.invoke(Stage4UnitTest.kt:132)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity(AbstractUnitTest.kt:96)
+	at org.hyperskill.musicplayer.internals.AbstractUnitTest.testActivity$default(AbstractUnitTest.kt:79)
+	at org.hyperskill.musicplayer.Stage4UnitTest.test03_testPermissionRequestAgainGranted(Stage4UnitTest.kt:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:591)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:274)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+</failure>
+  </testcase>
+  <testcase name="test04_testMusicFilesRetrievalAllFiles" classname="org.hyperskill.musicplayer.Stage4UnitTest" time="0.471"/>
+  <testcase name="test05_testMusicFilesRetrievalNoFiles" classname="org.hyperskill.musicplayer.Stage4UnitTest" time="0.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

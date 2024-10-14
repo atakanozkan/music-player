@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.musicplayer.Stage1UnitTestB" tests="9" skipped="1" failures="0" errors="0" timestamp="2024-10-12T02:14:32" hostname="Atakans-MacBook-Pro.local" time="3.203">
+  <properties/>
+  <testcase name="test00_checkMainActivityComponentsExist" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="1.894"/>
+  <testcase name="test01_checkPlayerControllerFragmentComponentsExist" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="0.16"/>
+  <testcase name="test02_checkSearchButtonNoSongsFound" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test03_checkMenuItemAddPlaylist" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="0.304"/>
+  <testcase name="test04_checkMenuItemLoadPlaylist" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="0.276"/>
+  <testcase name="test05_checkMenuItemDeletePlaylist" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="0.186"/>
+  <testcase name="test06_checkControllerStopButtonBeforeSearch" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="0.147"/>
+  <testcase name="test07_checkControllerSeekBarBeforeSearch" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="0.124"/>
+  <testcase name="test08_checkControllerPlayPauseButtonBeforeSearch" classname="org.hyperskill.musicplayer.Stage1UnitTestB" time="0.111"/>
+  <system-out><![CDATA[Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=29
+resources.arsc in APK '/Users/atakanozkan/.m2/repository/org/robolectric/android-all-instrumented/10-robolectric-5803371-i3/android-all-instrumented-10-robolectric-5803371-i3.jar' is compressed.
+]]></system-out>
+  <system-err><![CDATA[Oct 12, 2024 5:14:33 AM com.almworks.sqlite4java.Internal log
+WARNING: [sqlite] SQLite: cannot set library path, library already loaded
+]]></system-err>
+</testsuite>

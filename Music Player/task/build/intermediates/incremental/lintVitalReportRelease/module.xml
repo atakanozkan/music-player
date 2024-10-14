@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/atakanozkan/Music Player/Music Player/task"
+    name=":Music_Player-task"
+    type="APP"
+    maven="Music Player:Music_Player-task:"
+    gradle="7.4.0"
+    buildFolder="build"
+    bootClassPath="/Users/atakanozkan/Library/Android/sdk/platforms/android-29/android.jar:/Users/atakanozkan/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-29"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

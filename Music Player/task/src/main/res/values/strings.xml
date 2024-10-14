@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="search">Search</string>
+    <string name="stop">Stop</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="controlTimeStart">00:00</string>
+    <string name="add_playlist">Add Playlist</string>
+    <string name="load_playlist">Load Playlist</string>
+    <string name="all_songs_playlist">All Songs</string>
+    <string name="delete_playlist">Delete Playlist</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_delete_playlist">Choose playlist to delete</string>
+    <string name="alert_load_playlist">Choose playlist to load</string>
+    <string name="load_permission_decline">Songs cannot be loaded without permission</string>
+    <string name="playlist_choose_name_all_warn">All Songs is a reserved name choose another playlist name</string>
+    <string name="playlist_choose_name_empty_warn">Add a name to your playlist</string>
+    <string name="playlist_add_song_empty_warn">Add at least one song to your playlist</string>
+    <string name="no_songs_loaded_click_search">no songs loaded, click search to load songs</string>
+</resources>

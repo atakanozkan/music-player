@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.hyperskill.musicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+11-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:4:3-73
+11-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:4:20-70
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:5:3-77
+12-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:5:20-75
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:6:3-79
+13-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:6:20-77
+14
+15    <application
+15-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:7:3-23:17
+16        android:name="org.hyperskill.musicplayer.MusicPlayerApplication"
+16-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:8:7-45
+17        android:allowBackup="true"
+17-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:9:7-33
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/ed7d818de31af0b9b99af6c000f16bd0/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:10:7-41
+21        android:label="@string/app_name"
+21-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:11:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:12:7-52
+23        android:supportsRtl="true"
+23-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:13:7-33
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:14:7-38
+26        <activity
+26-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:15:5-22:16
+27            android:name="org.hyperskill.musicplayer.MainActivity"
+27-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:15:15-69
+28            android:exported="true" >
+28-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:16:9-32
+29            <intent-filter>
+29-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:17:7-21:23
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:18:9-61
+30-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:18:17-58
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:20:9-69
+32-->/Users/atakanozkan/Music Player/Music Player/task/src/main/AndroidManifest.xml:20:19-66
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/554ca11958838929fde2a64a7b83b830/transformed/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/554ca11958838929fde2a64a7b83b830/transformed/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
+38            android:directBootAware="true"
+38-->[androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/554ca11958838929fde2a64a7b83b830/transformed/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/554ca11958838929fde2a64a7b83b830/transformed/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
+40    </application>
+41
+42</manifest>

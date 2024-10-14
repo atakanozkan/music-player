@@ -1,0 +1,4 @@
+#Sat Oct 12 05:16:22 TRT 2024
+base.0=/Users/atakanozkan/Music Player/Music Player/task/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

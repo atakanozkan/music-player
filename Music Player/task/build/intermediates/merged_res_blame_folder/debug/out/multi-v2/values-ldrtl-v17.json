@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.hyperskill.musicplayer.Music_Player-task-mergeDebugResources-24:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/atakanozkan/.gradle/caches/8.9/transforms/8d013aa42356828780b5cde1f3ecd409/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                }
+            ]
+        }
+    ]
+}
