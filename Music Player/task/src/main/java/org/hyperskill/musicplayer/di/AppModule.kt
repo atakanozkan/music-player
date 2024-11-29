@@ -1,6 +1,7 @@
 package org.hyperskill.musicplayer.di
 
 import org.hyperskill.musicplayer.data.db.MusicPlayerDatabase
+import org.hyperskill.musicplayer.data.db.impl.MusicPlayerDatabaseImpl
 import org.hyperskill.musicplayer.domain.usecase.GetSongFromMediaByIdUseCase
 import org.hyperskill.musicplayer.domain.usecase.RetrieveAllSongsFromMediaUseCase
 import org.hyperskill.musicplayer.presentation.mapper.SongDomainToPresentationMapper
@@ -14,15 +15,15 @@ import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val appModule = module {
-    single { MusicPlayerDatabase(get()) }
+    single { MusicPlayerDatabaseImpl(get()) as MusicPlayerDatabase }
 
     factory { RetrieveAllSongsFromMediaUseCase(get()) }
     factory { GetSongFromMediaByIdUseCase(get()) }
 
-    factory { SongDomainToPresentationMapper() }
-    factory { SongToUiMapper() }
-    factory { SongSelectorToUiMapper(get()) }
-    factory { SongTrackToUiMapper(get()) }
+    single { SongDomainToPresentationMapper() }
+    single { SongToUiMapper() }
+    single { SongSelectorToUiMapper(get()) }
+    single { SongTrackToUiMapper(get()) }
 
     viewModel { MusicPlaylistViewModel(get(), get(), get(), get()) }
     viewModel { MusicPlayerViewModel() }

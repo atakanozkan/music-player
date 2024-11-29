@@ -3,15 +3,13 @@ package org.hyperskill.musicplayer.controller.player
 import android.content.Context
 import android.media.MediaPlayer
 import android.net.Uri
-import android.util.Log
 import org.hyperskill.musicplayer.ui.listener.PlaybackEventListener
-import org.hyperskill.musicplayer.player.PlayerWorker
 import org.hyperskill.musicplayer.ui.handler.PlaybackListenerHandler
 
 class PlayerController(
     private val appContext: Context,
     private val playbackEventListener: PlaybackListenerHandler
-) : MediaPlayer.OnCompletionListener, MediaPlayer.OnErrorListener, PlaybackEventListener by playbackEventListener.getEventHandler(){
+) : Player, MediaPlayer.OnCompletionListener, MediaPlayer.OnErrorListener, PlaybackEventListener by playbackEventListener.getEventHandler(){
 
     private var mediaPlayer: MediaPlayer? = null
 
@@ -32,7 +30,7 @@ class PlayerController(
         }
     }
 
-    fun prepareMediaPlayer(uri: Uri): MediaPlayer? {
+    override fun prepareMediaPlayer(uri: Uri): MediaPlayer? {
         mediaPlayer = MediaPlayer.create(appContext, uri).apply {
             setOnCompletionListener(this@PlayerController)
             setOnErrorListener(this@PlayerController)
@@ -41,11 +39,11 @@ class PlayerController(
         return mediaPlayer
     }
 
-    fun seek(ms: Int) {
+    override fun seek(ms: Int) {
         mediaPlayer?.seekTo(ms)
     }
 
-    fun playSong(uri: Uri): MediaPlayer?{
+    override fun playSong(uri: Uri): MediaPlayer?{
         dispose()
         prepareMediaPlayer(uri)
         playerWorker = playerWorker.newWorker(::workerPeriodicJob)
@@ -62,7 +60,7 @@ class PlayerController(
         return mediaPlayer
     }
 
-    fun startPlaying() {
+    override fun startPlaying() {
         if (isInitialized && mediaPlayer != null) {
             playerWorker.interrupt()
             playerWorker.start()
@@ -71,7 +69,7 @@ class PlayerController(
         }
     }
 
-    fun pauseMusic() {
+    override fun pauseMusic() {
         if (isPlaying) {
             mediaPlayer?.pause()
             playerWorker.interrupt()
@@ -82,14 +80,14 @@ class PlayerController(
         }
     }
 
-    private fun dispose() {
+    override fun dispose() {
         playerWorker.cancel()
         isInitialized = false
         mediaPlayer?.stop()
         mediaPlayer?.release()
         mediaPlayer = null
     }
-    fun stopMusic() {
+    override fun stopMusic() {
         if (isPlaying || isStopped) {
             isPlaying = false
             isStopped = false
@@ -111,7 +109,6 @@ class PlayerController(
 
     override fun onError(mp: MediaPlayer?, what: Int, extra: Int): Boolean {
         stopMusic()
-        Log.e("PlayerController", "MediaPlayer Error: what=$what, extra=$extra")
         return true
     }
 }

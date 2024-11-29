@@ -1,4 +1,4 @@
-#Sat Oct 05 01:46:32 TRT 2024
-base.0=/Users/atakanozkan/Music Player/Music Player/task/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
-path.0=classes.dex
+#Fri Nov 29 19:58:58 TRT 2024
+base.0=/Users/atakanozkan/Downloads/music-player/Music Player/task/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
 renamed.0=classes.dex

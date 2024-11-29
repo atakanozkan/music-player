@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addPlaylistLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/addPlaylistEtPlaylistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/editTextBackground"
+        android:hint="Playlist Name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck" />
+    <Button
+        android:id="@+id/addPlaylistBtnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:backgroundTint="?android:attr/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/addPlaylistBtnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:backgroundTint="?android:attr/colorButtonNormal"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

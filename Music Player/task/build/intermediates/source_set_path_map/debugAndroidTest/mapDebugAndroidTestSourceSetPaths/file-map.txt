@@ -1,0 +1,4 @@
+org.hyperskill.musicplayer.test.Music_Player-task-androidTest-0 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/generated/res/resValues/androidTest/debug
+org.hyperskill.musicplayer.test.Music_Player-task-mergeDebugAndroidTestResources-1 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+org.hyperskill.musicplayer.test.Music_Player-task-mergeDebugAndroidTestResources-2 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+org.hyperskill.musicplayer.test.Music_Player-task-debugAndroidTest-3 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

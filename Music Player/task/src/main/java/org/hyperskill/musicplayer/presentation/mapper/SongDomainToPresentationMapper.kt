@@ -1,6 +1,6 @@
 package org.hyperskill.musicplayer.presentation.mapper
 
-import org.hyperskill.musicplayer.architecture.presentation.mapper.Mapper
+import org.hyperskill.musicplayer.base.presentation.mapper.Mapper
 import org.hyperskill.musicplayer.domain.model.SongDomainModel
 import org.hyperskill.musicplayer.presentation.model.SongPresentationModel
 

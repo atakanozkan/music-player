@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/drawable_ic_pause.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/layout_list_item_song.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/layout/list_item_song.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/layout_main_player_controller_fragment.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/layout/main_player_controller_fragment.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/raw_wisdom.mp3.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/raw/wisdom.mp3"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/menu_toolbar_items.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/menu/toolbar_items.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/layout_main_add_playlist_fragment.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/layout/main_add_playlist_fragment.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/drawable_ic_play.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/layout_list_item_song_selector.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/layout/list_item_song_selector.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/layout_dialog_playlist_list.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/layout/dialog_playlist_list.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-pngs-37:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/layout_playlist_item.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/layout/playlist_item.xml"
+    },
+    {
+        "merged": "org.hyperskill.musicplayer.Music_Player-task-debug-41:/layout_activity_main.xml.flat",
+        "source": "org.hyperskill.musicplayer.Music_Player-task-main-43:/layout/activity_main.xml"
+    }
+]

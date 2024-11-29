@@ -1,0 +1,44 @@
+org.hyperskill.musicplayer.Music_Player-task-jetified-lifecycle-runtime-ktx-2.6.2-0 /Users/atakanozkan/.gradle/caches/8.9/transforms/05959ecc9232f6c49f02e29aba82583a/transformed/jetified-lifecycle-runtime-ktx-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-activity-1.8.0-1 /Users/atakanozkan/.gradle/caches/8.9/transforms/0b720c52ca03e1297ed258c6c72e24c7/transformed/jetified-activity-1.8.0/res
+org.hyperskill.musicplayer.Music_Player-task-lifecycle-viewmodel-2.6.2-2 /Users/atakanozkan/.gradle/caches/8.9/transforms/0e98983792b0703e4c5d5174a9c9352b/transformed/lifecycle-viewmodel-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-transition-1.3.0-3 /Users/atakanozkan/.gradle/caches/8.9/transforms/11759a8e9d572655f06d6edae047767e/transformed/transition-1.3.0/res
+org.hyperskill.musicplayer.Music_Player-task-fragment-1.5.4-4 /Users/atakanozkan/.gradle/caches/8.9/transforms/15f76d0b0c9fe0b6ada5a63ade700681/transformed/fragment-1.5.4/res
+org.hyperskill.musicplayer.Music_Player-task-drawerlayout-1.1.1-5 /Users/atakanozkan/.gradle/caches/8.9/transforms/221cb33b11ec3536082bba44bb88e04b/transformed/drawerlayout-1.1.1/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-emoji2-views-helper-1.3.0-6 /Users/atakanozkan/.gradle/caches/8.9/transforms/24cb64719c62e3e0851510228ee9e60f/transformed/jetified-emoji2-views-helper-1.3.0/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-lifecycle-viewmodel-ktx-2.6.2-7 /Users/atakanozkan/.gradle/caches/8.9/transforms/35b9a8929fd1914b3f783a8c185eca98/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-appcompat-1.7.0-8 /Users/atakanozkan/.gradle/caches/8.9/transforms/36c6c676936b26d82aeea3ca89a598c7/transformed/appcompat-1.7.0/res
+org.hyperskill.musicplayer.Music_Player-task-core-runtime-2.2.0-9 /Users/atakanozkan/.gradle/caches/8.9/transforms/3ba89382da95284ac0196035c1e4b524/transformed/core-runtime-2.2.0/res
+org.hyperskill.musicplayer.Music_Player-task-core-1.15.0-10 /Users/atakanozkan/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/res
+org.hyperskill.musicplayer.Music_Player-task-cardview-1.0.0-11 /Users/atakanozkan/.gradle/caches/8.9/transforms/3cd3766158013e0e3aed1e465f877538/transformed/cardview-1.0.0/res
+org.hyperskill.musicplayer.Music_Player-task-navigation-runtime-2.3.5-12 /Users/atakanozkan/.gradle/caches/8.9/transforms/427ab06e947fd534fa219a2539cc2347/transformed/navigation-runtime-2.3.5/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-lifecycle-process-2.6.2-13 /Users/atakanozkan/.gradle/caches/8.9/transforms/47a4f6e651fbe13b163dd7d59123ce2f/transformed/jetified-lifecycle-process-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-appcompat-resources-1.7.0-14 /Users/atakanozkan/.gradle/caches/8.9/transforms/47cd2f4174d124a7f230e510b4033474/transformed/jetified-appcompat-resources-1.7.0/res
+org.hyperskill.musicplayer.Music_Player-task-lifecycle-livedata-2.6.2-15 /Users/atakanozkan/.gradle/caches/8.9/transforms/48358eec5001f5aaccea534522784d30/transformed/lifecycle-livedata-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-navigation-ui-2.3.5-16 /Users/atakanozkan/.gradle/caches/8.9/transforms/546f0130fe2b719230bb447ed039090a/transformed/navigation-ui-2.3.5/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-savedstate-ktx-1.2.1-17 /Users/atakanozkan/.gradle/caches/8.9/transforms/62ad1e8157a1c677df7aeadab47a21d4/transformed/jetified-savedstate-ktx-1.2.1/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-activity-ktx-1.8.0-18 /Users/atakanozkan/.gradle/caches/8.9/transforms/6bf4221b1f8af0ae9e8917953c037104/transformed/jetified-activity-ktx-1.8.0/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-lifecycle-viewmodel-savedstate-2.6.2-19 /Users/atakanozkan/.gradle/caches/8.9/transforms/700aaf32c95b36dc0f983c872fa34634/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-lifecycle-livedata-core-ktx-2.6.2-20 /Users/atakanozkan/.gradle/caches/8.9/transforms/73c34d9d2c4beba7bfe3d95de9309c28/transformed/jetified-lifecycle-livedata-core-ktx-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-profileinstaller-1.3.1-21 /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/res
+org.hyperskill.musicplayer.Music_Player-task-coordinatorlayout-1.1.0-22 /Users/atakanozkan/.gradle/caches/8.9/transforms/8e1105247be0cf4f0be6c6672f607a7e/transformed/coordinatorlayout-1.1.0/res
+org.hyperskill.musicplayer.Music_Player-task-recyclerview-1.1.0-23 /Users/atakanozkan/.gradle/caches/8.9/transforms/96f1390cf7485dfb7bd8e144dd0bcb4b/transformed/recyclerview-1.1.0/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-viewpager2-1.0.0-24 /Users/atakanozkan/.gradle/caches/8.9/transforms/9b0fce5e3293ae6b9a98df851a7dbba1/transformed/jetified-viewpager2-1.0.0/res
+org.hyperskill.musicplayer.Music_Player-task-navigation-common-2.3.5-25 /Users/atakanozkan/.gradle/caches/8.9/transforms/a7f46e3be4391dde27fdd0038e813fcc/transformed/navigation-common-2.3.5/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-annotation-experimental-1.4.1-26 /Users/atakanozkan/.gradle/caches/8.9/transforms/ae26afc8e2308b8c8c6325090eccd997/transformed/jetified-annotation-experimental-1.4.1/res
+org.hyperskill.musicplayer.Music_Player-task-lifecycle-livedata-core-2.6.2-27 /Users/atakanozkan/.gradle/caches/8.9/transforms/b44d583e55ae8e1ba6415e92e77bf059/transformed/lifecycle-livedata-core-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-material-1.11.0-28 /Users/atakanozkan/.gradle/caches/8.9/transforms/c1e87bed05eb7904c6bed54867d45559/transformed/material-1.11.0/res
+org.hyperskill.musicplayer.Music_Player-task-constraintlayout-2.0.4-29 /Users/atakanozkan/.gradle/caches/8.9/transforms/c84ae9e48496db4c89904a8150e84374/transformed/constraintlayout-2.0.4/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-savedstate-1.2.1-30 /Users/atakanozkan/.gradle/caches/8.9/transforms/cd7e22198ed919d1a522b9c31d301d94/transformed/jetified-savedstate-1.2.1/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-emoji2-1.3.0-31 /Users/atakanozkan/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-startup-runtime-1.1.1-32 /Users/atakanozkan/.gradle/caches/8.9/transforms/dd0e2f9eb4e496b34af8de7c56906c28/transformed/jetified-startup-runtime-1.1.1/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-core-ktx-1.15.0-33 /Users/atakanozkan/.gradle/caches/8.9/transforms/e2b1f784ef6995d6c25fb655d938fdf4/transformed/jetified-core-ktx-1.15.0/res
+org.hyperskill.musicplayer.Music_Player-task-navigation-fragment-2.3.5-34 /Users/atakanozkan/.gradle/caches/8.9/transforms/e46c841648f94f2e60fc17e3844bad16/transformed/navigation-fragment-2.3.5/res
+org.hyperskill.musicplayer.Music_Player-task-lifecycle-runtime-2.6.2-35 /Users/atakanozkan/.gradle/caches/8.9/transforms/f1891717bdb42b9db6801edda1f8a211/transformed/lifecycle-runtime-2.6.2/res
+org.hyperskill.musicplayer.Music_Player-task-jetified-tracing-1.2.0-36 /Users/atakanozkan/.gradle/caches/8.9/transforms/f5de9ca7736c59fba731dab8418024bb/transformed/jetified-tracing-1.2.0/res
+org.hyperskill.musicplayer.Music_Player-task-pngs-37 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/generated/res/pngs/debug
+org.hyperskill.musicplayer.Music_Player-task-resValues-38 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/generated/res/resValues/debug
+org.hyperskill.musicplayer.Music_Player-task-packageDebugResources-39 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+org.hyperskill.musicplayer.Music_Player-task-packageDebugResources-40 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+org.hyperskill.musicplayer.Music_Player-task-debug-41 /Users/atakanozkan/Downloads/music-player/Music Player/task/build/intermediates/merged_res/debug/mergeDebugResources
+org.hyperskill.musicplayer.Music_Player-task-debug-42 /Users/atakanozkan/Downloads/music-player/Music Player/task/src/debug/res
+org.hyperskill.musicplayer.Music_Player-task-main-43 /Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/res

@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.flow.collectLatest
 import org.hyperskill.musicplayer.R
 import org.hyperskill.musicplayer.common.constant.Constants.REQUEST_CODE_READ_EXTERNAL_STORAGE
+import org.hyperskill.musicplayer.controller.player.Player
 import org.hyperskill.musicplayer.databinding.ActivityMainBinding
 import org.hyperskill.musicplayer.ui.dialog.DialogHandler
 import org.hyperskill.musicplayer.controller.ui.FragmentTransactionController
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var fragmentTransactionController: FragmentTransactionController
     private lateinit var dialogHandler: DialogHandler
-    private lateinit var playerController: PlayerController
+    private lateinit var playerController: Player
 
     private lateinit var mainEventHandler: MainEventHandler
     private lateinit var adapterListenerEvent: AdapterListenerEvent

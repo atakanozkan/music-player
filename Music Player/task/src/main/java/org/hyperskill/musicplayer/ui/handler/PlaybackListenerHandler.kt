@@ -1,6 +1,6 @@
 package org.hyperskill.musicplayer.ui.handler
 
-import org.hyperskill.musicplayer.architecture.ui.event.EventHandler
+import org.hyperskill.musicplayer.base.ui.event.EventHandler
 import org.hyperskill.musicplayer.ui.listener.PlaybackEventListener
 import org.hyperskill.musicplayer.presentation.model.PlaybackStatus
 import org.hyperskill.musicplayer.presentation.viewModel.MusicPlayerViewModel
@@ -23,7 +23,6 @@ class PlaybackListenerHandler(
         }
 
         override fun onPlaybackContinue(position: Long) {
-            println("asd asd $position")
             playerViewModel.setPlaybackModel(position, PlaybackStatus.CONTINUE)
         }
 

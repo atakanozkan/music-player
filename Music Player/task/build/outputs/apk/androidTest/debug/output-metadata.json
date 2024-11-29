@@ -16,5 +16,6 @@
       "outputFile": "Music_Player-task-debug-androidTest.apk"
     }
   ],
-  "elementType": "File"
+  "elementType": "File",
+  "minSdkVersionForDexing": 21
 }

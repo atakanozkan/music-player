@@ -1,6 +1,6 @@
 package org.hyperskill.musicplayer.ui.mapper
 
-import org.hyperskill.musicplayer.architecture.ui.mapper.Mapper
+import org.hyperskill.musicplayer.base.ui.mapper.Mapper
 import org.hyperskill.musicplayer.presentation.model.SongSelectorPresentationModel
 import org.hyperskill.musicplayer.ui.model.SongSelectorUiModel
 

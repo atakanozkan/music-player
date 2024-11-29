@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.hyperskill.musicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+11-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:4:3-73
+11-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:4:20-70
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:5:3-77
+12-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:5:20-75
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:6:3-79
+13-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:6:20-77
+14
+15    <permission
+15-->[androidx.core:core:1.15.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+16        android:name="org.hyperskill.musicplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.15.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.15.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="org.hyperskill.musicplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.15.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.15.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:7:3-23:17
+22        android:name="org.hyperskill.musicplayer.MusicPlayerApplication"
+22-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:8:7-45
+23        android:allowBackup="true"
+23-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:9:7-33
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.15.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:10:7-41
+28        android:label="@string/app_name"
+28-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:11:7-39
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:12:7-52
+30        android:supportsRtl="true"
+30-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:13:7-33
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:14:7-38
+33        <activity
+33-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:15:5-22:16
+34            android:name="org.hyperskill.musicplayer.ui.MainActivity"
+34-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:15:15-72
+35            android:exported="true" >
+35-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:16:9-32
+36            <intent-filter>
+36-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:17:7-21:23
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:18:9-61
+37-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:18:17-58
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:20:9-69
+39-->/Users/atakanozkan/Downloads/music-player/Music Player/task/src/main/AndroidManifest.xml:20:19-66
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.3.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.3.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+45            android:authorities="org.hyperskill.musicplayer.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.3.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.3.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.3.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.3.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.3.0] /Users/atakanozkan/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/atakanozkan/.gradle/caches/8.9/transforms/47a4f6e651fbe13b163dd7d59123ce2f/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/atakanozkan/.gradle/caches/8.9/transforms/47a4f6e651fbe13b163dd7d59123ce2f/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/atakanozkan/.gradle/caches/8.9/transforms/47a4f6e651fbe13b163dd7d59123ce2f/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+54-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+55                android:value="androidx.startup" />
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+56        </provider>
+57
+58        <service
+58-->[androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/b757d9b1fd1b4609ced77861bec1076b/transformed/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+59            android:name="androidx.room.MultiInstanceInvalidationService"
+59-->[androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/b757d9b1fd1b4609ced77861bec1076b/transformed/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
+60            android:directBootAware="true"
+60-->[androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/b757d9b1fd1b4609ced77861bec1076b/transformed/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+61            android:exported="false" />
+61-->[androidx.room:room-runtime:2.2.6] /Users/atakanozkan/.gradle/caches/8.9/transforms/b757d9b1fd1b4609ced77861bec1076b/transformed/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
+62
+63        <receiver
+63-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+64            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+65            android:directBootAware="false"
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+66            android:enabled="true"
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+67            android:exported="true"
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+68            android:permission="android.permission.DUMP" >
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+69            <intent-filter>
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+70                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+71            </intent-filter>
+72            <intent-filter>
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+73                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+74            </intent-filter>
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+76                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+79                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atakanozkan/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+80            </intent-filter>
+81        </receiver>
+82    </application>
+83
+84</manifest>

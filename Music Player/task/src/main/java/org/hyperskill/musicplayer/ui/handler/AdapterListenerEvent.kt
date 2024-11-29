@@ -1,6 +1,6 @@
 package org.hyperskill.musicplayer.ui.handler
 
-import org.hyperskill.musicplayer.architecture.ui.event.EventHandler
+import org.hyperskill.musicplayer.base.ui.event.EventHandler
 import org.hyperskill.musicplayer.ui.listener.SongClickListener
 import org.hyperskill.musicplayer.presentation.model.SongTrackPresentationModel
 import org.hyperskill.musicplayer.presentation.viewModel.MusicPlayerViewModel

@@ -163,7 +163,6 @@ class MainPlayerControllerFragment : BaseFragment<ActionUiState,MainPlayerContro
 
     private fun updateSeekBarAndTime(currentPosition: Long) {
         val progressPos: Int = (currentPosition / 1000).toInt()
-        Log.d("Player",currentPosition.toString())
         binding.controllerSeekBar.progress = progressPos
         binding.controllerTvCurrentTime.text = formatDurationInSeconds(progressPos)
     }

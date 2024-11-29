@@ -8,10 +8,11 @@ import com.videochat.architecture.presentation.viewmodel.BaseViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
+import org.hyperskill.musicplayer.controller.player.Player
 import org.hyperskill.musicplayer.presentation.model.SongTrackPresentationModel
 import org.hyperskill.musicplayer.controller.player.PlayerController
+import org.hyperskill.musicplayer.controller.player.PlayerWorker
 import org.hyperskill.musicplayer.presentation.model.PlaybackPresentationModel
 import org.hyperskill.musicplayer.presentation.model.PlaybackStatus
 import org.hyperskill.musicplayer.ui.model.ActionUiState
@@ -28,7 +29,7 @@ class MusicPlayerViewModel: BaseViewModel<ActionUiState>(ActionUiState.PLAY_MUSI
     val currentPlayBack: SharedFlow<PlaybackPresentationModel?>
         get() = _currentPlayBack.asSharedFlow()
 
-    private var playerController: PlayerController? = null
+    private var player: Player? = null
 
     fun getCurrentTrack(): SongTrackPresentationModel?{
         if(currentSong.replayCache.isEmpty()) return null
@@ -54,29 +55,29 @@ class MusicPlayerViewModel: BaseViewModel<ActionUiState>(ActionUiState.PLAY_MUSI
         return currentSong.replayCache[0]
     }
 
-    fun setPlayer(manager: PlayerController?) {
-        playerController = manager
+    fun setPlayer(manager: Player?) {
+        player = manager
     }
 
     override fun onCleared() {
         super.onCleared()
-        playerController?.stopMusic()
+        player?.stopMusic()
     }
 
     private fun playMusic() {
-        playerController?.startPlaying()
+        player?.startPlaying()
     }
 
     private fun pauseMusic(){
-        playerController?.pauseMusic()
+        player?.pauseMusic()
     }
 
     private fun stopMusic(){
-        playerController?.stopMusic()
+        player?.stopMusic()
     }
 
     fun seekPosition(pos: Int){
-        playerController?.seek(pos)
+        player?.seek(pos)
     }
 
     fun setCurrentChangeOnTrack() {
@@ -115,12 +116,12 @@ class MusicPlayerViewModel: BaseViewModel<ActionUiState>(ActionUiState.PLAY_MUSI
             val uri = getUri(id)
             if (it.song.id != id) {
                 setPlaybackModel(0,PlaybackStatus.LAND)
-                playerController?.playSong(uri)
+                player?.playSong(uri)
                 return
             }
             if (it.songPlayMode == SongPlayMode.STOP && song.songPlayMode!= SongPlayMode.STOP){
                 setPlaybackModel(0,PlaybackStatus.LAND)
-                playerController?.playSong(uri)
+                player?.playSong(uri)
                 return
             }
         }
